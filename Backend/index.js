@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT= 3001;
+const PORT= 3007;
 const cors = require('cors');
 app.listen(PORT,()=>console.log(`Server is started at PORT${PORT}`));
 app.use(cors());
